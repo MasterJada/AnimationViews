@@ -1,2 +1,2 @@
 # AnimationViews
-[![YouTube (http://makeagif.com/i/wbsBAO)]] 
+![](http://makeagif.com/i/wbsBAO)
