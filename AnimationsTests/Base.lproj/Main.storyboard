@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9bp-X4-AFk">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimationsTests" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,247 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBB-c8-lAW">
+                                <rect key="frame" x="24" y="72" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mZb-3F-dig"/>
+                                </constraints>
+                                <state key="normal" title="Pulsare animation"/>
+                                <connections>
+                                    <segue destination="B7r-dV-RTN" kind="show" id="mw4-mH-7ES"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0h-o4-IaN">
+                                <rect key="frame" x="143.5" y="110" width="88" height="30"/>
+                                <state key="normal" title="Jump button"/>
+                                <connections>
+                                    <segue destination="bei-dF-i3B" kind="show" id="575-WO-NbG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8U-HM-rzc">
+                                <rect key="frame" x="138" y="148" width="98" height="30"/>
+                                <state key="normal" title="Particle magic"/>
+                                <connections>
+                                    <segue destination="17g-Jn-zan" kind="show" id="Ltc-OK-HUw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDb-Ss-iEU">
+                                <rect key="frame" x="164" y="186" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Menu"/>
+                                <connections>
+                                    <segue destination="Itu-aD-uXV" kind="show" id="WQg-nK-8RR"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="M8U-HM-rzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1d7-Wx-Aq0"/>
+                            <constraint firstItem="K0h-o4-IaN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5B6-kG-cbb"/>
+                            <constraint firstItem="cBB-c8-lAW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="8" id="7nL-ba-dkM"/>
+                            <constraint firstItem="cBB-c8-lAW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="R3V-d2-K6Y"/>
+                            <constraint firstItem="M8U-HM-rzc" firstAttribute="top" secondItem="K0h-o4-IaN" secondAttribute="bottom" constant="8" id="fl1-nM-UZv"/>
+                            <constraint firstItem="K0h-o4-IaN" firstAttribute="top" secondItem="cBB-c8-lAW" secondAttribute="bottom" constant="8" id="gi3-lx-KDm"/>
+                            <constraint firstItem="cBB-c8-lAW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="jC4-ce-yws"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Rq0-ix-srg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="932" y="760.56971514242889"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="DVe-E6-A8Z">
+            <objects>
+                <viewController id="Itu-aD-uXV" customClass="MenuViewController" customModule="AnimationsTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="40H-gI-asK"/>
+                        <viewControllerLayoutGuide type="bottom" id="2OF-3i-mHj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AFo-sy-N1f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="Tyc-oh-hBY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3jG-vy-Yh6" appends="YES" id="yCo-zV-1B0"/>
+                                    <outletCollection property="gestureRecognizers" destination="qkE-2x-ouQ" appends="YES" id="FwM-Pg-bIG"/>
+                                </connections>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J6h-sB-9Sl" customClass="RoundMenu" customModule="AnimationsTests" customModuleProvider="target">
+                                <rect key="frame" x="307" y="599" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8ZD-tf-FP1"/>
+                                    <constraint firstAttribute="width" constant="60" id="Bsy-Vt-dMY"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="Round" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backColor">
+                                        <color key="value" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="ItemsColor">
+                                        <color key="value" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2OF-3i-mHj" firstAttribute="top" secondItem="Tyc-oh-hBY" secondAttribute="bottom" id="5UU-Pk-TbH"/>
+                            <constraint firstItem="Tyc-oh-hBY" firstAttribute="top" secondItem="40H-gI-asK" secondAttribute="bottom" id="6fq-99-Wl4"/>
+                            <constraint firstItem="J6h-sB-9Sl" firstAttribute="trailing" secondItem="AFo-sy-N1f" secondAttribute="trailingMargin" constant="8" id="bpe-bh-2g2"/>
+                            <constraint firstAttribute="trailing" secondItem="Tyc-oh-hBY" secondAttribute="trailing" id="cfp-XF-f1G"/>
+                            <constraint firstItem="Tyc-oh-hBY" firstAttribute="leading" secondItem="AFo-sy-N1f" secondAttribute="leading" id="kzj-9a-Iq4"/>
+                            <constraint firstItem="2OF-3i-mHj" firstAttribute="top" secondItem="J6h-sB-9Sl" secondAttribute="bottom" constant="8" id="mYU-fs-Kh1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="RoundetCorners" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="menuButton" destination="J6h-sB-9Sl" id="3Z9-O3-A6u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGK-2H-p9z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="3jG-vy-Yh6">
+                    <connections>
+                        <action selector="swiped:" destination="Itu-aD-uXV" id="ntq-3X-xN9"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="qkE-2x-ouQ">
+                    <connections>
+                        <action selector="swiped:" destination="Itu-aD-uXV" id="cvw-MO-mHd"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="968.79999999999995" y="1508.9955022488757"/>
+        </scene>
+        <!--Particle View Controller-->
+        <scene sceneID="cKw-Bp-Utw">
+            <objects>
+                <viewController id="17g-Jn-zan" customClass="ParticleViewController" customModule="AnimationsTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IiC-fg-Be0"/>
+                        <viewControllerLayoutGuide type="bottom" id="uCf-kG-yhe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Xb-B3-rTc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CFa-g3-PjP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1825" y="1501"/>
+        </scene>
+        <!--Shearch View Controller-->
+        <scene sceneID="RxW-hg-SpA">
+            <objects>
+                <viewController id="bei-dF-i3B" customClass="ShearchViewController" customModule="AnimationsTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F3C-pb-d2e"/>
+                        <viewControllerLayoutGuide type="bottom" id="7x3-is-WnI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZTT-jO-Qqp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="al1-1R-upV" customClass="JumpField" customModule="AnimationsTests" customModuleProvider="target">
+                                <rect key="frame" x="16" y="72" width="80" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="JumpWidht">
+                                        <real key="value" value="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="ButtonColor">
+                                        <color key="value" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="ButtonTextColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="ButtonText" value="Hello"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="TextPlaceholder" value="Type text here"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XKh-vT-PZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1825" y="853"/>
+        </scene>
+        <!--Pulsare animation-->
+        <scene sceneID="bXh-yg-iuE">
+            <objects>
+                <viewController title="Pulsare animation" id="B7r-dV-RTN" customClass="PulsareAnimationViewController" customModule="AnimationsTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9d6-wT-Sgq"/>
+                        <viewControllerLayoutGuide type="bottom" id="LpC-kA-TCd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NdL-9g-q93">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mP5-y5-xKv" customClass="PulsareAnimationView" customModule="AnimationsTests" customModuleProvider="target">
+                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="41W-3O-Lyn"/>
+                                    <constraint firstAttribute="width" constant="100" id="4jy-Ii-AOH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="OutsideColor">
+                                        <color key="value" red="0.77979677920000001" green="0.36175966259999998" blue="0.36028385159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="Image" value="heard"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mP5-y5-xKv" firstAttribute="centerY" secondItem="NdL-9g-q93" secondAttribute="centerY" id="6Cw-eT-vrP"/>
+                            <constraint firstItem="mP5-y5-xKv" firstAttribute="centerX" secondItem="NdL-9g-q93" secondAttribute="centerX" id="iLe-bv-vgp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pulsare" destination="mP5-y5-xKv" id="DDr-bu-NqE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RKp-LZ-sKB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1824.8" y="210.94452773613196"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="imu-rL-cdr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9bp-X4-AFk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Ja-cy-jct">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="R71-qp-h9D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yKX-aW-iVx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="791.15442278860576"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="980" height="653"/>
+        <image name="heard" width="300" height="300"/>
+    </resources>
 </document>

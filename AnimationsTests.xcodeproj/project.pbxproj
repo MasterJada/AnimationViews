@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770097BE1F2F77640067334E /* JumpField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770097BD1F2F77640067334E /* JumpField.swift */; };
+		770CC3191F30B1CD00E7D082 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770CC3181F30B1CD00E7D082 /* MenuViewController.swift */; };
+		770CC31B1F30B4A900E7D082 /* RoundMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770CC31A1F30B4A900E7D082 /* RoundMenu.swift */; };
+		776DF7551F2F1D4D00B6A09C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 776DF7531F2F1D4D00B6A09C /* spark.png */; };
+		77ECBF381F30679D005AD0B8 /* ParticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ECBF371F30679D005AD0B8 /* ParticleViewController.swift */; };
+		77ECBF451F30720A005AD0B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77ECBF431F30720A005AD0B8 /* Assets.xcassets */; };
 		77FACEA71F2B23D200F0A6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FACEA61F2B23D200F0A6AA /* AppDelegate.swift */; };
 		77FACEA91F2B23D200F0A6AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FACEA81F2B23D200F0A6AA /* ViewController.swift */; };
 		77FACEAC1F2B23D200F0A6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FACEAA1F2B23D200F0A6AA /* Main.storyboard */; };
-		77FACEAE1F2B23D200F0A6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FACEAD1F2B23D200F0A6AA /* Assets.xcassets */; };
 		77FACEB11F2B23D200F0A6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FACEAF1F2B23D200F0A6AA /* LaunchScreen.storyboard */; };
+		77FACEBC1F2B364A00F0A6AA /* overrides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FACEBB1F2B364A00F0A6AA /* overrides.swift */; };
+		77FACEBF1F2B3D8900F0A6AA /* PulsareAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FACEBE1F2B3D8900F0A6AA /* PulsareAnimationView.swift */; };
+		77FACEC11F2B413600F0A6AA /* PulsareAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FACEC01F2B413600F0A6AA /* PulsareAnimationViewController.swift */; };
+		77FACEC31F2B88DA00F0A6AA /* ShearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FACEC21F2B88DA00F0A6AA /* ShearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		770097BD1F2F77640067334E /* JumpField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpField.swift; sourceTree = "<group>"; };
+		770CC3181F30B1CD00E7D082 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		770CC31A1F30B4A900E7D082 /* RoundMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundMenu.swift; sourceTree = "<group>"; };
+		776DF7531F2F1D4D00B6A09C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		77ECBF371F30679D005AD0B8 /* ParticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleViewController.swift; sourceTree = "<group>"; };
+		77ECBF431F30720A005AD0B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77FACEA31F2B23D200F0A6AA /* AnimationsTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationsTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FACEA61F2B23D200F0A6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77FACEA81F2B23D200F0A6AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77FACEAB1F2B23D200F0A6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77FACEAD1F2B23D200F0A6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77FACEB01F2B23D200F0A6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77FACEB21F2B23D200F0A6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FACEBB1F2B364A00F0A6AA /* overrides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = overrides.swift; sourceTree = "<group>"; };
+		77FACEBE1F2B3D8900F0A6AA /* PulsareAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsareAnimationView.swift; sourceTree = "<group>"; };
+		77FACEC01F2B413600F0A6AA /* PulsareAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsareAnimationViewController.swift; sourceTree = "<group>"; };
+		77FACEC21F2B88DA00F0A6AA /* ShearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,39 @@
 		77FACEA51F2B23D200F0A6AA /* AnimationsTests */ = {
 			isa = PBXGroup;
 			children = (
+				77FACEBD1F2B3D6800F0A6AA /* AnimatedViews */,
+				77FACEB81F2B282000F0A6AA /* view_controllers */,
 				77FACEA61F2B23D200F0A6AA /* AppDelegate.swift */,
 				77FACEA81F2B23D200F0A6AA /* ViewController.swift */,
 				77FACEAA1F2B23D200F0A6AA /* Main.storyboard */,
-				77FACEAD1F2B23D200F0A6AA /* Assets.xcassets */,
 				77FACEAF1F2B23D200F0A6AA /* LaunchScreen.storyboard */,
 				77FACEB21F2B23D200F0A6AA /* Info.plist */,
+				776DF7531F2F1D4D00B6A09C /* spark.png */,
+				77ECBF431F30720A005AD0B8 /* Assets.xcassets */,
 			);
 			path = AnimationsTests;
+			sourceTree = "<group>";
+		};
+		77FACEB81F2B282000F0A6AA /* view_controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77FACEC01F2B413600F0A6AA /* PulsareAnimationViewController.swift */,
+				77FACEC21F2B88DA00F0A6AA /* ShearchViewController.swift */,
+				77ECBF371F30679D005AD0B8 /* ParticleViewController.swift */,
+				770CC3181F30B1CD00E7D082 /* MenuViewController.swift */,
+			);
+			name = view_controllers;
+			sourceTree = "<group>";
+		};
+		77FACEBD1F2B3D6800F0A6AA /* AnimatedViews */ = {
+			isa = PBXGroup;
+			children = (
+				77FACEBB1F2B364A00F0A6AA /* overrides.swift */,
+				77FACEBE1F2B3D8900F0A6AA /* PulsareAnimationView.swift */,
+				770097BD1F2F77640067334E /* JumpField.swift */,
+				770CC31A1F30B4A900E7D082 /* RoundMenu.swift */,
+			);
+			name = AnimatedViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +167,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776DF7551F2F1D4D00B6A09C /* spark.png in Resources */,
 				77FACEB11F2B23D200F0A6AA /* LaunchScreen.storyboard in Resources */,
-				77FACEAE1F2B23D200F0A6AA /* Assets.xcassets in Resources */,
 				77FACEAC1F2B23D200F0A6AA /* Main.storyboard in Resources */,
+				77ECBF451F30720A005AD0B8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FACEC11F2B413600F0A6AA /* PulsareAnimationViewController.swift in Sources */,
+				77FACEBC1F2B364A00F0A6AA /* overrides.swift in Sources */,
+				77ECBF381F30679D005AD0B8 /* ParticleViewController.swift in Sources */,
+				77FACEBF1F2B3D8900F0A6AA /* PulsareAnimationView.swift in Sources */,
+				770CC3191F30B1CD00E7D082 /* MenuViewController.swift in Sources */,
+				770CC31B1F30B4A900E7D082 /* RoundMenu.swift in Sources */,
+				77FACEC31F2B88DA00F0A6AA /* ShearchViewController.swift in Sources */,
 				77FACEA91F2B23D200F0A6AA /* ViewController.swift in Sources */,
+				770097BE1F2F77640067334E /* JumpField.swift in Sources */,
 				77FACEA71F2B23D200F0A6AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +354,7 @@
 				77FACEB71F2B23D200F0A6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
