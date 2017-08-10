@@ -39,16 +39,8 @@
                                     <segue destination="bei-dF-i3B" kind="show" id="575-WO-NbG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8U-HM-rzc">
-                                <rect key="frame" x="138" y="148" width="98" height="30"/>
-                                <state key="normal" title="Particle magic"/>
-                                <connections>
-                                    <segue destination="17g-Jn-zan" kind="show" id="Ltc-OK-HUw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDb-Ss-iEU">
-                                <rect key="frame" x="164" y="186" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDb-Ss-iEU">
+                                <rect key="frame" x="167.5" y="148" width="39" height="30"/>
                                 <state key="normal" title="Menu"/>
                                 <connections>
                                     <segue destination="Itu-aD-uXV" kind="show" id="WQg-nK-8RR"/>
@@ -57,11 +49,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="M8U-HM-rzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1d7-Wx-Aq0"/>
                             <constraint firstItem="K0h-o4-IaN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5B6-kG-cbb"/>
                             <constraint firstItem="cBB-c8-lAW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="8" id="7nL-ba-dkM"/>
                             <constraint firstItem="cBB-c8-lAW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="R3V-d2-K6Y"/>
-                            <constraint firstItem="M8U-HM-rzc" firstAttribute="top" secondItem="K0h-o4-IaN" secondAttribute="bottom" constant="8" id="fl1-nM-UZv"/>
+                            <constraint firstItem="JDb-Ss-iEU" firstAttribute="top" secondItem="K0h-o4-IaN" secondAttribute="bottom" constant="8" id="cNl-uP-U02"/>
+                            <constraint firstItem="JDb-Ss-iEU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e1e-Ve-6Rp"/>
                             <constraint firstItem="K0h-o4-IaN" firstAttribute="top" secondItem="cBB-c8-lAW" secondAttribute="bottom" constant="8" id="gi3-lx-KDm"/>
                             <constraint firstItem="cBB-c8-lAW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="jC4-ce-yws"/>
                         </constraints>
